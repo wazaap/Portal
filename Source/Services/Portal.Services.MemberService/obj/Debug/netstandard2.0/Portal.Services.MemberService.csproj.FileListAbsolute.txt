@@ -1,0 +1,9 @@
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/Debug/netstandard2.0/Portal.Services.MemberService.csprojAssemblyReference.cache
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/Debug/netstandard2.0/Portal.Services.MemberService.csproj.CoreCompileInputs.cache
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/Debug/netstandard2.0/Portal.Services.MemberService.AssemblyInfoInputs.cache
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/Debug/netstandard2.0/Portal.Services.MemberService.AssemblyInfo.cs
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/bin/Debug/netstandard2.0/Portal.Services.MemberService.deps.json
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/bin/Debug/netstandard2.0/Portal.Services.MemberService.dll
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/bin/Debug/netstandard2.0/Portal.Services.MemberService.pdb
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/Debug/netstandard2.0/Portal.Services.MemberService.dll
+/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/Debug/netstandard2.0/Portal.Services.MemberService.pdb
