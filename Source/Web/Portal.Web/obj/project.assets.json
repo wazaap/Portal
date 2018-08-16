@@ -4615,6 +4615,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Portal.Services.MemberService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Portal.Services.MemberService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portal.Services.MemberService.dll": {}
+        }
       }
     }
   },
@@ -12208,43 +12218,55 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Portal.Services.MemberService/1.0.0": {
+      "type": "project",
+      "path": "../../Services/Portal.Services.MemberService/Portal.Services.MemberService.csproj",
+      "msbuildProject": "../../Services/Portal.Services.MemberService/Portal.Services.MemberService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "Portal.Services.MemberService >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/home/thomas/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\thoma\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/thomas/Development/DotNet/Portal/Source/Web/Portal.Web/Portal.Web.csproj",
+      "projectUniqueName": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Web\\Portal.Web\\Portal.Web.csproj",
       "projectName": "Portal.Web",
-      "projectPath": "/home/thomas/Development/DotNet/Portal/Source/Web/Portal.Web/Portal.Web.csproj",
-      "packagesPath": "/home/thomas/.nuget/packages/",
-      "outputPath": "/home/thomas/Development/DotNet/Portal/Source/Web/Portal.Web/obj/",
+      "projectPath": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Web\\Portal.Web\\Portal.Web.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Web\\Portal.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/thomas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Services\\Portal.Services.MemberService\\Portal.Services.MemberService.csproj": {
+              "projectPath": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Services\\Portal.Services.MemberService\\Portal.Services.MemberService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Portal.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Portal.Services.MemberService;
 
 namespace Portal.Web
 {
@@ -41,6 +42,8 @@ namespace Portal.Web
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddTransient<IMemberServiceAgent, MemberDummyServiceAgent>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

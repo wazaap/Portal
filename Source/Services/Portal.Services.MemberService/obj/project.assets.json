@@ -176,28 +176,30 @@
     ]
   },
   "packageFolders": {
-    "/home/thomas/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\thoma\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/Portal.Services.MemberService.csproj",
+      "projectUniqueName": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Services\\Portal.Services.MemberService\\Portal.Services.MemberService.csproj",
       "projectName": "Portal.Services.MemberService",
-      "projectPath": "/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/Portal.Services.MemberService.csproj",
-      "packagesPath": "/home/thomas/.nuget/packages/",
-      "outputPath": "/home/thomas/Development/DotNet/Portal/Source/Services/Portal.Services.MemberService/obj/",
+      "projectPath": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Services\\Portal.Services.MemberService\\Portal.Services.MemberService.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thoma\\Source\\repos\\Portal\\Source\\Services\\Portal.Services.MemberService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/thomas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
